@@ -1,0 +1,114 @@
+@media (max-width: 750px){
+  .wrap {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .contents {
+    width: 100%;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .main {
+    width: 100%;
+  }
+/* アイコンがクリックされたらメニューを表示 */
+#drawer-check:checked ~ .drawer-content {
+  left: 40%;/* メニューを画面に入れる */
+}
+/* メニューのデザイン*/
+.drawer-content {
+  width: 60%;
+}
+  .menu {
+    margin-right: 32px;
+    font-size: 10px;
+  }
+  .drawer-open {
+    right: 32px;
+}
+/*トップ*/
+.company {
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -64px;
+}
+.copy-size {
+  margin-top: 152px;
+}
+.contents {
+  height: 60%;
+}
+.copy-size p {
+  font-size: 20px;
+}
+.copy-size h1 {
+  font-size: 50px;
+}
+.logo {
+  width: 40%;
+  margin-left: 24px;
+}
+.first {
+  height: 90%;
+}
+.first::after {
+  height: 60%;
+}
+
+/*vision*/
+.vision-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 56px;
+}
+.vision {
+  margin-left: 0;
+}
+.vision-title p {
+  font-weight: normal;
+}
+.vision-p {
+  font-size: 15px;
+}
+/*message*/
+.message-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.message-img img {
+  width: 90%;
+}
+.message {
+  display: block;
+  float: none;
+}
+/*company*/
+.company-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  z-index: 1;
+}
+.company-wrapper h2 {
+  width: 100%;
+  margin-top: 256px;
+}
+.profile h3{
+  font-weight: normal;
+  font-size: 15px;
+  width: 25%;
+}
+.profile p {
+  font-size: 15px;
+}
+.map-img {
+  margin-bottom: 32px;
+}
+}
