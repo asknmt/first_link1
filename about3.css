@@ -89,6 +89,10 @@
 .message {
   display: block;
   float: none;
+  padding-top: 8px;
+}
+.message h2 {
+  margin-top: 64px;
 }
 /*company*/
 .company-wrapper {
