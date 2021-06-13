@@ -1,6 +1,9 @@
 html {
   height: 100%;
 }
+* {
+  font-family: 'ヒラギノ角ゴ ProN',sans-serif;
+}
 body {
   height: 100%;
   width: 100%;
