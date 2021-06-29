@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-size: 62.5%;
 }
 body {
   height: 100%;
@@ -117,7 +118,7 @@ header {
 }
 
 .drawer-item {
-  font-size: 30px;
+  font-size: 2rem;
   padding-bottom: 40px;
 }
 
@@ -164,7 +165,9 @@ position: fixed;
 top: 0px;
 right: 0px;
 }
-
+ul {
+  padding-inline-start: 0px;
+}
 body.nonscroll {
   overflow: hidden;
 }
@@ -190,12 +193,13 @@ body.nonscroll {
 
 .copy-size p {
   padding-bottom: 16px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
-.about-us {
+.copy-size h1 {
   font-family: 'arial black';
   margin-top: 0;
+  font-size: 4.5rem;
 }
 
 .company {
@@ -204,10 +208,6 @@ body.nonscroll {
   margin-right: -184px;
   display: flex;
   justify-content: flex-end;
-}
-
-.about-us  {
-  font-size: 70px;
 }
 
 /*ファーストビュー*/
@@ -243,12 +243,12 @@ body.nonscroll {
 }
 .vision-title h2 {
   font-family: 'arial black';
-  font-size: 30px;
+  font-size: 2.1rem;
   margin-bottom: 40px;
 }
 
 .vision-title p {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 24px;
 }
@@ -257,10 +257,11 @@ body.nonscroll {
   font-weight: normal;
   color: rgb(80, 79, 79);
   width: 60%;
+  font-size: 1rem;
 }
 .p-1 {
- line-height: 4;
  white-space: pre-line;
+ line-height: 2;
 }
 .p-2 {
   white-space: pre-line;
@@ -290,7 +291,7 @@ body.nonscroll {
 }
 .message h2,.company-wrapper h2 {
   font-family: 'arial black';
-  font-size: 30px;
+  font-size: 2.1rem;
   margin-top: 104px;
 }
 
@@ -298,17 +299,18 @@ body.nonscroll {
   margin-bottom: 24px;
 }
 .message-p {
+  font-size: 1rem;
   color: rgb(80, 79, 79);
 }
 /*company*/
 .company-wrapper {
   margin-top: 1304px;
-  margin-bottom: 50px;
+  margin-bottom: 56px;
 }
 .company-wrapper h2 {
   padding-bottom: 32px;
   font-family: 'arial black';
-  font-size: 30px;
+  font-size: 2.1rem;
 }
 .company-wrapper h2,.profile {
   border-bottom: solid 1px  rgba(136, 134, 134, 0.76);
@@ -316,14 +318,17 @@ body.nonscroll {
 .profile {
   display: flex;
   line-height: 5;
-  margin-left: 304px;
+  width: 70%;
+  margin: 0 0 0 auto;
 }
 .profile h3 {
   display: block;
   width: 30%;
+  font-size: 1rem;
 }
 .profile p{
   margin-left: 80px;
+  font-size: 1rem;
 }
 
 /*マップ*/
@@ -345,6 +350,6 @@ body.nonscroll {
   line-height: 56px;
   color: #fff;
   text-align: center;
-  font-size: 10px;
+  font-size: 0.2rem;
   margin: 0;
 }
