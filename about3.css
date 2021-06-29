@@ -18,6 +18,9 @@
   .main {
     width: 100%;
   }
+  .message h2,.company-wrapper h2 {
+    font-size: 1.5rem;
+  }
 /* アイコンがクリックされたらメニューを表示 */
 #drawer-check:checked ~ .drawer-content {
   left: 40%;/* メニューを画面に入れる */
@@ -26,9 +29,12 @@
 .drawer-content {
   width: 60%;
 }
+.drawer-item {
+  font-size: 1.5rem;
+}
   .menu {
     margin-right: 32px;
-    font-size: 10px;
+    font-size: 0.2rem;
   }
   .drawer-open {
     right: 32px;
@@ -36,9 +42,7 @@
 /*トップ*/
 .company {
   padding-top: 0;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: -64px;
+  margin-right: -56px;
 }
 .copy-size {
   margin-top: 152px;
@@ -47,10 +51,10 @@
   height: 60%;
 }
 .copy-size p {
-  font-size: 20px;
+  font-size: 1rem;
 }
 .copy-size h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 .logo {
   width: 40%;
@@ -73,10 +77,11 @@
   margin-left: 0;
 }
 .vision-title p {
+  font-size: 1.1rem;
   font-weight: normal;
 }
 .vision-p {
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 /*message*/
 .message-wrapper {
@@ -89,10 +94,12 @@
 .message {
   display: block;
   float: none;
-  padding-top: 8px;
 }
 .message h2 {
-  margin-top: 64px;
+  margin-top: 40px;
+}
+.message-p {
+  font-size: 0.9rem;
 }
 /*company*/
 .company-wrapper {
@@ -104,13 +111,16 @@
   width: 100%;
   margin-top: 256px;
 }
+.profile {
+  width: 100%;
+}
 .profile h3{
   font-weight: normal;
   font-size: 15px;
   width: 25%;
 }
 .profile p {
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 .map-img {
   margin-bottom: 32px;
